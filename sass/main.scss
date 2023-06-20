@@ -1,7 +1,9 @@
-body{
-    background-color: black;
-    margin: 0;
-}
+$colorPrincipal: black;
+$colorSecundario: grey;
+$border: 2px solid white; 
+
+@import "navbar";
+@import "body";
 
 div {
 p {

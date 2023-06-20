@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,30 +13,39 @@
     <meta name="description" content="Lider en organizador en eventos sociales>
     <meta name="keywords" content="fiestas, 15-años, casamientos, novias, bat, salones, quinceañeras">
 
-    <link rel="stylesheet" href="./css/expo-style.css">
+    <link rel="stylesheet" href="./sass/expo.css">
 </head>
 <body>
 
     <header>
-                
-        <div class="logo">
-                <img src="./imgPE/logo.jpg" alt="logo">
-        </div>
-
-
-                <nav>
-                        
-                        <a href="INDEX.HTML" class="nav-link">Inicio</a>    
-                        <a href="pruebaSalones.html" class="nav-link">Salones</a>
-                        <a href="shows.html" class="nav-link">Shows/Servicios</a>
-                        <a href="foto.html" class="nav-link">Foto y Video</a>
-                        <a href="expo.html" class="nav-link">Expo</a>
-                        
-                        
-
-                </nav>
-
-</header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Inicio</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./pruebaSalones.html">Salones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./shows.html">Shows y Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./foto.html">foto y video</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./expo.html">expo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+        
+    </header>
 
 <div class="videoExpo">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/8cVv54p0Pu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -44,4 +57,7 @@
         A continuación te mostramos un resumen de nuestra última Expo, mientras planificamos la próxima edición que se realizará en el mes de Abril de 2024</p>
     
 </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
 </html>

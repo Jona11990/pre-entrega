@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.navbar-nav li {
+  margin-right: 40px;
+}
+.navbar-nav li .navbar-nav li a:hover {
+  color: gray;
+}
+
+div p {
+  color: white;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}/*# sourceMappingURL=pruebasalones.css.map */

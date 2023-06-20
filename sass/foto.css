@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.navbar-nav li {
+  margin-right: 40px;
+}
+.navbar-nav li .navbar-nav li a:hover {
+  color: gray;
+}
+
+body {
+  background-color: black;
+}/*# sourceMappingURL=foto.css.map */
