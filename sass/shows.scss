@@ -1,2 +1,50 @@
 @import "body";
 @import "navbar";
+@import "titulos";
+@import "parrafos";
+@import "footer";
+
+
+@media (min-width: 360px) {
+.pContainer {
+max-width: 100%;
+padding: 10px;
+font-size: 20px;
+}
+}
+
+.cajaVideo {
+
+    display: grid; 
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 20px;
+    background-color:black;
+    margin: 0;   
+    
+    
+}
+
+@media (min-width: 360px) {
+  .cajaVideo {
+    
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      grid-gap: 20px;
+      iframe {
+      width: 100%;
+      height: 250px;
+     
+      }    
+    }
+  }
+
+@media (min-width: 800px) {
+  .cajaVideo {
+    grid-template-columns: repeat(2, 2fr);
+    iframe {
+      width: 560px;
+      height: 315px;
+      margin-left: 60px; 
+      
+      }  
+  }
+}

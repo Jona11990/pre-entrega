@@ -1,0 +1,17 @@
+footer {
+    background-color: black;
+    padding: 20px;}
+  
+  
+.footer .col-md-12 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  @media (max-width: 768px) {
+    footer .col-md-12 {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

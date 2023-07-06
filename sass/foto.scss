@@ -1,6 +1,27 @@
 @import "body";
 @import "navbar";
+@import "titulos";
+@import "parrafos";
+@import "footer";
+
 
 body{
     background-color: black;
 }
+
+.containerImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+   
+}
+
+@media (max-width: 360px) {
+    .containerImg img {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+    
+    
